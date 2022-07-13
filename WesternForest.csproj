@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ModFolderName>[DLL] Western Forest</ModFolderName>
+    <GamePath>C:\Games\Stardew Valley</GamePath>
+	<BundleExtraAssemblies>ThirdParty</BundleExtraAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gurrenm3.Reloaded.ModHelper.Shared" Version="1.0.0" />
+    <PackageReference Include="Lib.Harmony" Version="2.2.1" />
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>
